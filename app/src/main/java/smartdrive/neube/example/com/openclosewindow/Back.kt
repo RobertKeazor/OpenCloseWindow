@@ -12,10 +12,8 @@ import android.support.annotation.DrawableRes
 import android.support.v4.content.ContextCompat
 import android.view.View
 
-
 class Back : BaseObservable() {
 
-//    var mDrawableResource: Int? = R.mipmap.janelafrented
     var mDrawableResource: Int? = R.mipmap.jaesquerde
         @Bindable get
         set(value) {

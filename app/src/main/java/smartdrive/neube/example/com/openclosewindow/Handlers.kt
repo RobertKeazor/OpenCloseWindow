@@ -1,8 +1,16 @@
+/*
 package smartdrive.neube.example.com.openclosewindow
 
-/**
- * Created by neuberfran on 10/11/17.
- */
-class Handlers{
+import android.arch.lifecycle.ViewModel
 
+class  Handlers: ViewModel() {
+
+    fun setFavorite(news: News) {
+
+        news.setFavorite(!news.isFavorite())
+        notifyPropertyChanged(BR.favorite) //'favorite' is the boolean variable name
+    }
 }
+
+
+// */

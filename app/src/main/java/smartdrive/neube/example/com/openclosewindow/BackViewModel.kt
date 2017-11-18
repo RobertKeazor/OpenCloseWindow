@@ -3,8 +3,7 @@ package smartdrive.neube.example.com.openclosewindow
 import android.arch.lifecycle.ViewModel
 import android.content.Context
 
-
-class BackViewModel : ViewModel() {
+class BackViewodel : ViewModel() {
 
     val back = Back()
 
@@ -14,7 +13,8 @@ class BackViewModel : ViewModel() {
 
         back.mDrawableResource=partfirebase
 
-
     }
 
 }
+
+//the sta
