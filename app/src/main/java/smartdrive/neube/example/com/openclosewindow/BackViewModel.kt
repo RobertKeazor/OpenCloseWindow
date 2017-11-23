@@ -1,20 +1,10 @@
 package smartdrive.neube.example.com.openclosewindow
 
 import android.arch.lifecycle.ViewModel
-import android.content.Context
+import android.view.View
 
 class BackViewodel : ViewModel() {
-
-    val back = Back()
-
-    val partfirebase = Fireback().imageId()
-
-    fun updateDrawableResource(){
-
-        back.mDrawableResource=partfirebase
-
+    fun updateDrawableResource(view: View){
+        view.setBackgroundResource(Fireback().imageId())
     }
-
 }
-
-//the sta

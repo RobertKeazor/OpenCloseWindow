@@ -29,7 +29,7 @@
             android:layout_height="160sp"
             android:layout_marginTop="32dp"
             android:background="@drawable/btn1_selector"
-            android:onClick="@{litener}"
+            android:onClick="@{(theView) -> vm.updateDrawableResource(theView)}"
             app:layout_constraintEnd_toStartOf="@+id/buttond1"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
