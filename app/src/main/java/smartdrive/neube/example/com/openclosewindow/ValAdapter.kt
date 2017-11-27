@@ -9,14 +9,10 @@ import android.widget.TextView
 class ValAdapter {
 
     companion object {
-
-
         @BindingAdapter("android:background")
         @JvmStatic
         fun setIntToDrawable(@NonNull button: Button, @NonNull anInt: Int) {
             button.background = button.context.getDrawable(anInt)
-
         }
-
     }
 }
